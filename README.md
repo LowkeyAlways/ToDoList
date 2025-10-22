@@ -1,16 +1,39 @@
-# React + Vite
+# 📝 Ma journée productive – To-Do List améliorée
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une petite application de gestion de tâches quotidiennes, pensée pour t’aider à organiser ta journée efficacement.  
+Développée en **React (Vite)**, cette To-Do List permet d’ajouter, cocher et supprimer des tâches facilement — avec un design simple et réutilisable.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fonctionnalités
 
-## React Compiler
+- ➕ **Ajouter** une tâche  
+- ✅ **Cocher / décocher** une tâche terminée  
+- ❌ **Supprimer** une tâche  
+- 🔢 **Compter** le nombre de tâches restantes *(à venir)*  
+- 🎯 **Filtrer** les tâches (toutes / faites / à faire) *(à venir)*  
+- 💾 **Sauvegarde locale (localStorage)** *(optionnel)*  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚛️ Points techniques React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Utilisation de **`useState`** pour la gestion de l’état.  
+- Gestion de **listes** et rendu **conditionnel**.  
+- Création de **composants réutilisables** :
+  - `TaskForm` → formulaire d’ajout  
+  - `TaskList` → affichage de la liste  
+  - `TaskItem` → élément individuel  
+
+---
+
+## 🧱 Structure du projet
+
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+└── components/
+├── TaskForm.jsx
+├── TaskList.jsx
+└── TaskItem.jsx
