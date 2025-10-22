@@ -1,0 +1,13 @@
+form { display: 
+    flex; gap: 8px; 
+    margin-bottom: 16px; 
+  }
+
+form button{
+    margin-left: 1rem;
+}
+
+input[type="text"] { 
+    flex: 1; 
+    padding: 8px 10px; 
+  }
