@@ -1,6 +1,6 @@
 import TaskItem from "./TaskItem";
 
-function TaskList({ tasks, toggleTask, deleteTask }) {
+function TaskList({ tasks, filter, updateTaskStatus, deleteTask }) {
   if (tasks.length === 0) {
     return <p>Aucune tâche à afficher.</p>;
   }
@@ -11,7 +11,8 @@ function TaskList({ tasks, toggleTask, deleteTask }) {
         <TaskItem
           key={task.id}
           task={task}
-          toggleTask={toggleTask}
+          filter={filter}
+          updateTaskStatus={updateTaskStatus}
           deleteTask={deleteTask}
         />
       ))}
