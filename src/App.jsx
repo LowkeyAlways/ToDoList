@@ -26,7 +26,7 @@ function App() {
     setTasks((prev) => prev.filter((t) => t.id !== id))
   }
   return (
-    <div>
+    <div className='layout'>
       <h1>Ma journée productive</h1>
       <TaskForm onAddTask={addTask} />
       <TaskList tasks={tasks} onToggleTask={toggleTask} onDeleteTask={deleteTask}/>

@@ -1,6 +1,7 @@
 import { useState } from "react";
+import '../styles/form.css'
 
-function TaskForm ( onAddTask ) {
+function TaskForm ({ onAddTask }) {
     const [text, setText] = useState("")
 
     const handleSubmit = (e) => {
@@ -12,14 +13,14 @@ function TaskForm ( onAddTask ) {
       };
 
     return(
-        <form onSubmit={ handleSubmit }>
+        <form onSubmit={ handleSubmit } className="form">
             <input
                 type="text"
                 placeholder="Nouvelle tâche..."
                 value={text}
                 onChange={(e) => setText(e.target.value)}
             />
-      <button type="submit">Ajouter</button>
+            <button type="submit">Ajouter</button>
         </form>
     )
 
