@@ -12,7 +12,7 @@ Développée en **React (Vite)**, cette To-Do List permet d’ajouter, cocher et
 - ❌ **Supprimer** une tâche  
 - 🔢 **Compter** le nombre de tâches restantes *(à venir)*  
 - 🎯 **Filtrer** les tâches (toutes / faites / à faire) *(à venir)*  
-- 💾 **Sauvegarde locale (localStorage)** *(optionnel)*  
+- 💾 **Sauvegarde locale (localStorage)**
 
 ---
 
