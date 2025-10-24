@@ -1,3 +1,7 @@
+import RemoveIcon from '@mui/icons-material/Remove';
+import MinimizeIcon from '@mui/icons-material/Minimize';
+import AddIcon from '@mui/icons-material/Add';
+
 function TaskItem({ task, filter, updateTaskStatus, deleteTask }) {
   return (
     <li className="task-item">
@@ -13,7 +17,7 @@ function TaskItem({ task, filter, updateTaskStatus, deleteTask }) {
               title="Déplacer vers 'À faire'"
               onClick={() => updateTaskStatus(task.id, "todo")}
             >
-              ➕
+              <AddIcon />
             </button>
             <button
               title="Marquer comme faite"
@@ -34,7 +38,7 @@ function TaskItem({ task, filter, updateTaskStatus, deleteTask }) {
               title="Renvoyer vers 'Toutes'"
               onClick={() => updateTaskStatus(task.id, "all")}
             >
-              ➖
+              <RemoveIcon />
             </button>
             <button
               title="Rester dans 'À faire'"
@@ -55,7 +59,7 @@ function TaskItem({ task, filter, updateTaskStatus, deleteTask }) {
               title="Renvoyer à 'À faire'"
               onClick={() => updateTaskStatus(task.id, "todo")}
             >
-              ➖
+              <RemoveIcon />
             </button>
             <button title="Supprimer" onClick={() => deleteTask(task.id)}>
               ❌

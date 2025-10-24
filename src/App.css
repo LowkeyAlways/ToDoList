@@ -108,6 +108,15 @@ h1 {
   color: #f8f9fa;
 }
 
+.task-item .actions button svg {
+  top: 1px;
+}
+
+div .actions{
+  display: flex;
+  align-items: flex-start;
+}
+
 .task-count {
   text-align: center;
   margin-top: 15px;
