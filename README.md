@@ -7,16 +7,16 @@ Développée en **React (Vite)**, cette To-Do List permet d’ajouter, cocher et
 
 ## 🚀 Fonctionnalités
 
-- ➕ **Ajouter** une tâche  
-- ✅ **Cocher / décocher** une tâche terminée  
-- ❌ **Supprimer** une tâche  
-- 🔢 **Compter** le nombre de tâches restantes *(à venir)*  
-- 🎯 **Filtrer** les tâches (toutes / faites / à faire) *(à venir)*  
-- 💾 **Sauvegarde locale (localStorage)**
+- **Ajouter** une tâche  
+- **Cocher / décocher** une tâche terminée  
+- **Supprimer** une tâche  
+- **Compter** le nombre de tâches restantes *(à venir)*  
+- **Filtrer** les tâches (toutes / faites / à faire) *(à venir)*  
+- **Sauvegarde locale (localStorage)**
 
 ---
 
-## ⚛️ Points techniques React
+## Points techniques React
 
 - Utilisation de **`useState`** pour la gestion de l’état.  
 - Gestion de **listes** et rendu **conditionnel**.  
