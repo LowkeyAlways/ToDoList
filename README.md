@@ -44,6 +44,9 @@ ToDoList/
 │   │   ├── form.css                 # Style du formulaire d’ajout
 │   │   └── item.css                 # Style d'un élément individuel
 │   │
+│   ├── 📁 utils/                    # Configuration du Local Storage
+│   │   └── localStorage.js          # Fichier du Local Storage
+│   │   
 │   ├── App.jsx                      # Composant principal (logique et affichage global)
 │   ├── App.css                      # Styles globaux de l’application
 │   └── main.jsx                     # Point d’entrée React (montage dans le DOM)
