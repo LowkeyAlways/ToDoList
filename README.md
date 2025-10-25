@@ -1,11 +1,11 @@
-# 📝 Ma journée productive – To-Do List améliorée
+# Ma journée productive – To-Do List améliorée
 
 Une petite application de gestion de tâches quotidiennes, pensée pour t’aider à organiser ta journée efficacement.  
 Développée en **React (Vite)**, cette To-Do List permet d’ajouter, cocher et supprimer des tâches facilement — avec un design simple et réutilisable.
 
 ---
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 - **Ajouter** une tâche  
 - **Cocher / décocher** une tâche terminée  
