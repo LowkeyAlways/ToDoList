@@ -27,7 +27,7 @@ Développée en **React (Vite)**, cette To-Do List permet d’ajouter, cocher et
 
   ## Structure du projet
 
-  ```bash
+```bash
 ToDoList/
 │
 ├── 📁 node_modules/                 # Dépendances installées par npm
@@ -53,4 +53,4 @@ ToDoList/
 ├── package-lock.json                # Version exacte des dépendances installées
 ├── vite.config.js                   # Configuration de Vite
 └── README.md                        # Documentation du projet
-  ```
+```
